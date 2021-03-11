@@ -1,0 +1,144 @@
+html {
+  background-color: #000;
+  padding: 2rem 0 0rem 0;
+}
+body {
+  background-color: #fff;
+  font-size: 1rem;
+  width: 90%;
+  margin: auto;
+}
+header {
+  background: url("./img/the-muscles-369784_1280.png") center;
+  background-size: cover;
+  text-transform: uppercase;
+  padding: 0.5rem 0 1rem 0;
+}
+header h1 {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-top: 5px solid #daa520;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+nav {
+  padding: 2rem 0 1rem 0;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  list-style: none;
+}
+.link-navBar {
+  background-color: #daa520;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem;
+  transition-duration: 0.2s;
+}
+
+.link-navBar:hover {
+  transition-duration: 0.2s;
+  opacity: 0.6;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #daa520;
+}
+
+.link-selected {
+  /*background-color: #fff;*/
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px 5px 0 0;
+  color: #daa520;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem;
+  transition-duration: 0.2s;
+}
+/*footer*/
+footer {
+  font-size: 1.2rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #000;
+  width: 100%;
+  padding: 0.5rem;
+}
+/* main */
+
+aside {
+  background-color: #333333;
+  border-radius: 4px;
+  color: #fff;
+  height: 50%;
+  padding: 2rem;
+  text-align: justify;
+  width: 30%;
+}
+label {
+  font-weight: bold;
+}
+input,
+textarea {
+  border-radius: 5px;
+  font-size: 1.2rem;
+  display: block;
+  padding: 0.5rem;
+  width: 100%;
+}
+input[type="submit"] {
+  background-color: #daa520;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: center;
+  width: 107%;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5rem 2rem 5rem 2rem;
+}
+section {
+  min-height: 100vh;
+  width: 60%;
+}
+
+section h1,
+article h1 {
+  background-color: #daa520;
+  text-transform: uppercase;
+  padding: 0.3rem;
+  display: inline;
+}
+
+main section {
+  display: none;
+}
+main section:nth-child(1) {
+  display: block;
+}
+
+section input,
+section textarea {
+  width: 90%;
+  text-align: justify;
+}
+#formcontact input[type="submit"] {
+  width: 30%;
+  margin: auto;
+}
+
+#btn-send-formcontact:hover {
+  transform: scale(1.01);
+  transition-duration: 0.2s;
+}
+#btn-send-formcontact {
+  transition-duration: 0.2s;
+}
